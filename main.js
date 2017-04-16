@@ -37,5 +37,4 @@ function changeTo(num) {
     var goLeft = num * 600;
     $(".imglist").animate({ left: "-" + goLeft + "px" }, 1000);
     $(".indexlist").find("li").removeClass("indexOne").eq(num).addClass("indexOne");
-
 }

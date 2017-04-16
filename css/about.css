@@ -48,61 +48,7 @@ body{
 { 
     color:#26D6E7;
 }
-#main{
-    padding-left: 8em;
-    padding-right: 8em;
-    padding-top: 4em;
-}
 
-#box{
-    padding: 15px;
-    position: relative;
-    width: 600px;
-    height: 337.5px;
-    float: right;
-    background-color: #DEA681;
-    margin-top: 22px;
-    margin-left: 15px;
-}
-#banner{
-    position: relative;
-    width: 600px;
-    height: 337.5px;
-    overflow: hidden;
-}
-.imglist{
-    position: relative;
-    width: 1800px;
-    height: 337.5px;
-    z-index: 8;
-    overflow: hidden;
-}
-.imglist li{
-    float: left;
-    display: inline;
-}
-.indexlist{
-    margin: 0 auto;
-    display: flex;
-    justify-content: right;
-    top: -15px;
-    position: relative;
-    z-index: 80;
-    
-}
-.indexlist li{
-    background: grey;
-    cursor: pointer;
-    float: left;
-    margin-right: 10px;
-    padding: 6px 10px;
-    border: 0 solid black;
-    opacity: 0.7;
-}
-.indexlist .indexOne{
-    background: white;
-    font-weight: bold;
- }
  #main #text{
      color: whitesmoke;
  }
@@ -148,7 +94,7 @@ body{
 	top: 10px;
 	padding-top: 15px;
 	padding-bottom: 30px;
-    height: 273px;
+    height: 425px;
 }
 #article #text #title{
 	font-size: 30px;
@@ -163,6 +109,10 @@ body{
 	border-radius: 5px;
 	margin-top: 20px;
 	color: #000;
+    height: 380px;
+    padding-left: 2em;
+    padding-right:2em;
+    overflow: hidden;
 }
  #footer{
      clear: both;
@@ -188,22 +138,16 @@ body{
 }
 #text-container{
     clear: left;
-    height: 360px;
+    height: 510px;
 }
 #CV-text{
     position: absolute;
     margin-left: 50px;
 }
-#photo{
-    position: absolute;
-    margin-left: 32%;
-    z-index: 22;
-}
+
 #container{
-    float: left;
-    width: 38%;
-    position: absolute;
-    margin-left: -1%;
+    width: 70%;
+    margin: 2em auto;
 }
 #footer{
     color: #F2CA5C;
@@ -216,58 +160,22 @@ body{
 #copyright:hover{
     color: #FFEF94;
 }
-@media screen and (min-width:1400px){
-	#photo{
-    margin-left: 35%;
-    }
-    #container{
-    margin-left: 3%;
+@media screen and (max-width:985px){
+    #article #text{
+        font-size: 16px;
+        line-height: 38px;
     }
 }
-@media screen and (min-width:1500px){
-	#photo{
-    margin-left: 37%;
-    }
-    #container{
-    margin-left: 5%;
+@media screen and (max-width:815px){
+    #article #text{
+        font-size: 15px;
+        line-height: 36px;
     }
 }
-@media screen and (max-width:1230px){
-	#photo{
-    margin-left: 29%;
-    }
-    #container{
-    margin-left: -2%;
+@media screen and (max-width:770px){
+    #article #text{
+        font-size: 12px;
+        line-height: 30px;
     }
 }
-@media screen and (max-width:1200px){
-	#left{
-    float: none;
-    position: static;
-    }
-    #nav-body{
-        text-align: center;
-        padding-left: 0;
-    }
-    #right{
-    text-align: center;
-    }
-    #bg #main{
-        padding-left: 0;
-        padding-right: 0;
-    }
-    #bg #main #container{
-        margin: 0 auto;
-        float: none;
-        position: static;
-        width: 66%;
-    }
-    #box{
-        margin: 22px auto;
-        float: none;
-    }
-    #photo{
-        position: static;
-        margin-left: 0%;
-    }
-}
+
