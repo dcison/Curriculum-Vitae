@@ -164,13 +164,6 @@ body{
 	margin-top: 20px;
 	color: #000;
 }
-#container{
-    float: left;
-    width: 650px;
-    position: absolute;
-    margin-left: 50px;
-}
-
  #footer{
      clear: both;
      color: whitesmoke;
@@ -203,10 +196,66 @@ body{
 }
 #photo{
     position: absolute;
-    margin-left: 600px;
+    margin-left: 32%;
 }
-/*@media screen and (max-width:1416px){
-	#footer{
-        color: green;
+#container{
+    float: left;
+    width: 38%;
+    position: absolute;
+    margin-left: -1%;
+}
+@media screen and (min-width:1400px){
+	#photo{
+    margin-left: 35%;
     }
-}*/
+    #container{
+    margin-left: 3%;
+    }
+}
+@media screen and (min-width:1500px){
+	#photo{
+    margin-left: 37%;
+    }
+    #container{
+    margin-left: 5%;
+    }
+}
+@media screen and (max-width:1230px){
+	#photo{
+    margin-left: 29%;
+    }
+    #container{
+    margin-left: -2%;
+    }
+}
+@media screen and (max-width:1200px){
+	#left{
+    float: none;
+    position: static;
+    }
+    #nav-body{
+        text-align: center;
+        padding-left: 0;
+    }
+    #right{
+    text-align: center;
+    }
+    #bg #main{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #bg #main #container{
+        margin: 0 auto;
+        float: none;
+        position: static;
+        width: 66%;
+    }
+    #box{
+        margin: 22px auto;
+        float: none;
+    }
+    #photo{
+        position: static;
+        margin-left: 0%;
+    }
+}
