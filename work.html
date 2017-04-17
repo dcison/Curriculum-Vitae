@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="zh-CN">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dcison's Curriculum Vitae</title>
+	<link rel="stylesheet" href="css/work.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body class="Site">
+	<main class="Site-content">
+		<div id="bg">
+			<div id="nav-body">
+				<div id="nav-container">
+					<div id="left">
+						<a href="index.html">Just a cv</a>
+					</div>
+					<div id="right-box">
+						<ul id="right">
+							<li>
+								<a href="./work.html">My work</a>
+							</li>
+							<li>
+								<a href="./about.html">About</a>
+							</li>
+							<li>
+								<a href="./contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="main">
+				<div class="container">
+					<div id="works-gallery">
+						<div class="work-container">
+							<div id="article">
+								<div id="cir">
+									<dd id="c1"></dd>
+									<dd id="c2"></dd>
+									<dd id="c3"></dd>
+								</div>
+								<div id="text-container">
+									<div id="text">
+										<div id="title">
+											<b>我做过的作品</b>
+										</div>
+										<div id="text-box">
+											<!-- 作品开始 -->
+											<ul class="list-group">
+												<li class="work-item">
+													<a href="#">
+														<div class="work-cover">
+															<img class="list-group-item" id="picture" src="./pic/1.jpg" >
+														</div>
+													</a>
+													<div class="work-name">
+														<a href="#">南邮天文社主页</a>
+													</div>
+												</li>
+												<!-- 作品结尾 -->
+												<li class="work-item">
+													<a href="#">
+														<div class="work-cover">
+															<img class="list-group-item" id="picture" src="./pic/1.jpg" >
+														</div>
+													</a>
+													<div class="work-name">
+														<a href="#">南邮天文社主页</a>
+													</div>
+												</li>
+												<li class="work-item">
+													<a href="#">
+														<div class="work-cover">
+															<img class="list-group-item" id="picture" src="./pic/1.jpg" >
+														</div>
+													</a>
+													<div class="work-name">
+														<a href="#">南邮天文社主页</a>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+	</main>
+	<footer id="footer">
+		<span> Copyright © </span>
+		<a id="copyright" href="https://coding.net/u/Dcison "> Dcison</a>
+	</footer>
+	<script src="./js/JQuery.js"></script>
+	<script src="js/lazyFade.js"></script>
+    <script>
+        $(function() {
+            $(".list-group div").lazyFade({
+                reverse: false,
+                duration: 250,
+                delay: 250,
+                opacity: {
+                    start: 0.1,
+                    end: 1
+                }
+            });
+        })
+    </script>
+
+
+
+</body>
+
+</html>
