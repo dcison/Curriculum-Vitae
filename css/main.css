@@ -6,7 +6,6 @@ body{
     background-size:cover;
     -moz-background-size:cover;
     -webkit-background-size:cover;
-    
 }
 #nav-body{
     padding-left: 6em;
@@ -163,6 +162,9 @@ body{
 	border-radius: 5px;
 	margin-top: 20px;
 	color: #000;
+    padding-left: 2em;
+    padding-right:2em;
+    height:220px
 }
  #footer{
      clear: both;

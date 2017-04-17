@@ -160,6 +160,19 @@ body{
 #copyright:hover{
     color: #FFEF94;
 }
+@media screen and (max-width:1200px){
+	#left{
+    float: none;
+    position: static;
+    }
+    #nav-body{
+        text-align: center;
+        padding-left: 0;
+    }
+    #right{
+    text-align: center;
+    }
+}
 @media screen and (max-width:985px){
     #article #text{
         font-size: 16px;
