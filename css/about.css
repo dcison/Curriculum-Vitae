@@ -87,7 +87,7 @@ body{
 	margin-left: 15px;
 }
 #article #text{
-	line-height: 40px;
+	line-height: 58px;
 	font-size: 18px;
 	background-color: #f7f7f7;
 	position: relative;
@@ -107,12 +107,11 @@ body{
 	margin-right: 30px;
 	background-color: #fff;
 	border-radius: 5px;
-	margin-top: 20px;
 	color: #000;
     height: 380px;
     padding-left: 2em;
     padding-right:2em;
-    overflow: hidden;
+    overflow: auto;
 }
  #footer{
      clear: both;
@@ -173,22 +172,5 @@ body{
     text-align: center;
     }
 }
-@media screen and (max-width:985px){
-    #article #text{
-        font-size: 16px;
-        line-height: 38px;
-    }
-}
-@media screen and (max-width:815px){
-    #article #text{
-        font-size: 15px;
-        line-height: 36px;
-    }
-}
-@media screen and (max-width:770px){
-    #article #text{
-        font-size: 12px;
-        line-height: 30px;
-    }
-}
+
 
